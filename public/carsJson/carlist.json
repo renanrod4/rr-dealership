@@ -1,0 +1,530 @@
+{
+  "brands": [
+    {
+      "slug": "porsche",
+      "name": "Porsche",
+      "country": "Germany",
+      "founded": 1931,
+      "models": [
+        {
+          "slug": "356",
+          "name": "356",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Porsche_356_Nr._1_Roadster_1948.jpg",
+          "generations": [
+            {
+              "code": "Pre-A/A/B/C",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Porsche_356_SC_1964.jpg",
+              "trims": [
+                {
+                  "name": "356 SC",
+                  "year": 1964,
+                  "specs": {
+                    "bhp": 95,
+                    "torque_nm": 123,
+                    "weight_kg": 935,
+                    "zero_to_100_s": 10.5,
+                    "engine": "1.6L",
+                    "engine_layout": "Flat-4",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "550_spyder",
+          "name": "550 Spyder",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/1955_Porsche_550_Spyder_34.jpg",
+          "generations": [
+            {
+              "code": "550",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/1955_Porsche_550_Spyder_34.jpg",
+              "trims": [
+                {
+                  "name": "550 Spyder",
+                  "year": 1955,
+                  "specs": {
+                    "bhp": 110,
+                    "torque_nm": 121,
+                    "weight_kg": 590,
+                    "zero_to_100_s": 9.0,
+                    "engine": "1.5L",
+                    "engine_layout": "Flat-4",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "911",
+          "name": "911",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/1969_silver_Porsche_911E_coup%C3%A9_Auto_Salon_Singen_Germany.jpg",
+          "generations": [
+            {
+              "code": "F-Series",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Nottuln%2C_Oldtimermuseum%2C_Porsche_911L_--2021--_4493.jpg",
+              "trims": [
+                {
+                  "name": "911L",
+                  "year": 1968,
+                  "specs": {
+                    "bhp": 130,
+                    "torque_nm": 174,
+                    "weight_kg": 1080,
+                    "zero_to_100_s": 8.5,
+                    "engine": "2.0L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "Carrera RS 2.7",
+                  "year": 1973,
+                  "specs": {
+                    "bhp": 210,
+                    "torque_nm": 255,
+                    "weight_kg": 1075,
+                    "zero_to_100_s": 5.8,
+                    "engine": "2.7L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "G-Series",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/1976_Porsche_911_Carrera_3.0_%28no_127%29%2C_Rallye_Monte-Carlo_Historique_2025%2C_Bad_Homburg_%28P1033232%29.jpg",
+              "trims": [
+                {
+                  "name": "Carrera 3.0",
+                  "year": 1976,
+                  "specs": {
+                    "bhp": 200,
+                    "torque_nm": 255,
+                    "weight_kg": 1120,
+                    "zero_to_100_s": 6.3,
+                    "engine": "3.0L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "911 SC",
+                  "year": 1986,
+                  "specs": {
+                    "bhp": 204,
+                    "torque_nm": 267,
+                    "weight_kg": 1160,
+                    "zero_to_100_s": 6.2,
+                    "engine": "3.0L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "964",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Porsche_911_%28964%29.jpg",
+              "trims": [
+                {
+                  "name": "Carrera 2",
+                  "year": 1991,
+                  "specs": {
+                    "bhp": 247,
+                    "torque_nm": 310,
+                    "weight_kg": 1370,
+                    "zero_to_100_s": 5.5,
+                    "engine": "3.6L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "993",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Porsche_993_targa_mainz.jpg",
+              "trims": [
+                {
+                  "name": "Carrera",
+                  "year": 1996,
+                  "specs": {
+                    "bhp": 285,
+                    "torque_nm": 340,
+                    "weight_kg": 1370,
+                    "zero_to_100_s": 5.6,
+                    "engine": "3.6L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "996",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/2004_Porsche_996X50.jpg",
+              "trims": [
+                {
+                  "name": "Carrera 4S",
+                  "year": 2002,
+                  "specs": {
+                    "bhp": 320,
+                    "torque_nm": 370,
+                    "weight_kg": 1470,
+                    "zero_to_100_s": 5.1,
+                    "engine": "3.6L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "AWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "991.1",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/2013_Porsche_911_Carrera_4S_%28991%29_%289626546987%29.jpg",
+              "trims": [
+                {
+                  "name": "911 Carrera 4S",
+                  "year": 2013,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/2013_Porsche_911_Carrera_4S_%28991%29_%289626546987%29.jpg",
+                  "specs": {
+                    "bhp": 400,
+                    "torque_nm": 440,
+                    "weight_kg": 1445,
+                    "zero_to_100_s": 4.1,
+                    "engine": "3.8L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "AWD"
+                  }
+                },
+                {
+                  "name": "911 GT3",
+                  "year": 2014,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Porsche_911_GT3_%28991.1%29_Washington_DC_Metro_Area%2C_USA_%283%29.jpg",
+                  "specs": {
+                    "bhp": 475,
+                    "torque_nm": 440,
+                    "weight_kg": 1430,
+                    "zero_to_100_s": 3.5,
+                    "engine": "3.8L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "911 GT3 RS",
+                  "year": 2015,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Porsche_911_%28991.1%29_GT3_RS.jpg",
+                  "specs": {
+                    "bhp": 500,
+                    "torque_nm": 460,
+                    "weight_kg": 1420,
+                    "zero_to_100_s": 3.3,
+                    "engine": "4.0L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "911 Turbo S",
+                  "year": 2014,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/2014_Porsche_911_991_Turbo_S.jpg",
+                  "specs": {
+                    "bhp": 560,
+                    "torque_nm": 700,
+                    "weight_kg": 1605,
+                    "zero_to_100_s": 3.1,
+                    "engine": "3.8L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "AWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "991.2",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/2018_Porsche_911_Carrera_S.jpg",
+              "trims": [
+                {
+                  "name": "Carrera S",
+                  "year": 2018,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/2018_Porsche_911_Carrera_S.jpg",
+                  "specs": {
+                    "bhp": 420,
+                    "torque_nm": 500,
+                    "weight_kg": 1460,
+                    "zero_to_100_s": 3.9,
+                    "engine": "3.0L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "GT3",
+                  "year": 2018,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Porsche_911_GT3_%28991.2%29_Washington_DC_Metro_Area%2C_USA.jpg",
+                  "specs": {
+                    "bhp": 500,
+                    "torque_nm": 460,
+                    "weight_kg": 1430,
+                    "zero_to_100_s": 3.4,
+                    "engine": "4.0L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "GT2 RS",
+                  "year": 2018,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Porsche_GT2_RS%2C_IAA_2017%2C_Frankfurt_%281Y7A2769%29.jpg/640px-Porsche_GT2_RS%2C_IAA_2017%2C_Frankfurt_%281Y7A2769%29.jpg",
+                  "specs": {
+                    "bhp": 700,
+                    "torque_nm": 750,
+                    "weight_kg": 1470,
+                    "zero_to_100_s": 2.8,
+                    "engine": "3.8L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "Turbo S",
+                  "year": 2017,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Porsche_991.2_911_Turbo_S_Racing_Yellow_%281%29.jpg",
+                  "specs": {
+                    "bhp": 580,
+                    "torque_nm": 750,
+                    "weight_kg": 1600,
+                    "zero_to_100_s": 2.9,
+                    "engine": "3.8L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "AWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "992",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/2025_Porsche_992_Carrera_convertible_Auto_Zuerich_2024_DSC_6527.jpg",
+              "trims": [
+                {
+                  "name": "Carrera Convertible",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/2025_Porsche_992_Carrera_convertible_Auto_Zuerich_2024_DSC_6527.jpg",
+                  "year": 2025,
+                  "specs": {
+                    "bhp": 388,
+                    "torque_nm": 450,
+                    "weight_kg": 1610,
+                    "zero_to_100_s": 4.3,
+                    "engine": "3.0L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "GT3",
+                  "year": 2022,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Porsche_911_992_GT3.jpg",
+                  "specs": {
+                    "bhp": 503,
+                    "torque_nm": 470,
+                    "weight_kg": 1435,
+                    "zero_to_100_s": 3.4,
+                    "engine": "4.0L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "GT3 Touring",
+                  "year": 2022,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Porsche_992_GT3_with_touring_package_1X7A6142.jpg",
+                  "specs": {
+                    "bhp": 503,
+                    "torque_nm": 470,
+                    "weight_kg": 1418,
+                    "zero_to_100_s": 3.4,
+                    "engine": "4.0L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "GT3 RS",
+                  "year": 2023,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Porsche_992_GT3_RS_DSC_9055.jpg",
+                  "specs": {
+                    "bhp": 518,
+                    "torque_nm": 465,
+                    "weight_kg": 1450,
+                    "zero_to_100_s": 3.2,
+                    "engine": "4.0L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "Turbo S",
+                  "year": 2022,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Porsche_992_Turbo_S_1X7A6046_%28cropped%29.jpg",
+                  "specs": {
+                    "bhp": 640,
+                    "torque_nm": 800,
+                    "weight_kg": 1640,
+                    "zero_to_100_s": 2.7,
+                    "engine": "3.8L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "AWD"
+                  }
+                },
+                {
+                  "name": "Turbo S Cabriolet",
+                  "year": 2022,
+                  "image_url": "http://upload.wikimedia.org/wikipedia/commons/5/5e/Porsche_911_Turbo_S_Cabriolet_%28992%29_Miami_Metro_Area%2C_USA.jpg",
+                  "specs": {
+                    "bhp": 640,
+                    "torque_nm": 800,
+                    "weight_kg": 1715,
+                    "zero_to_100_s": 2.8,
+                    "engine": "3.8L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "AWD"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "959",
+          "name": "959",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Porsche_959_silver_at_Auto_Salon_Singen.jpg",
+          "generations": [
+            {
+              "code": "959",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Porsche_959_silver_at_Auto_Salon_Singen.jpg",
+              "trims": [
+                {
+                  "name": "959 Komfort",
+                  "year": 1987,
+                  "specs": {
+                    "bhp": 444,
+                    "torque_nm": 500,
+                    "weight_kg": 1450,
+                    "zero_to_100_s": 3.7,
+                    "engine": "2.85L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "AWD"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "928",
+          "name": "928",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Porsche928.jpg",
+          "generations": [
+            {
+              "code": "928_GTS",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Porsche928.jpg",
+              "trims": [
+                {
+                  "name": "928 GTS",
+                  "year": 1993,
+                  "specs": {
+                    "bhp": 345,
+                    "torque_nm": 500,
+                    "weight_kg": 1640,
+                    "zero_to_100_s": 5.7,
+                    "engine": "5.4L",
+                    "engine_layout": "V8",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "cayenne",
+          "name": "Cayenne",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/2024_Porsche_Cayenne_Turbo_GT_E-Hybrid_Auto.jpg",
+          "generations": [
+            {
+              "code": "1st_Gen",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/2004_Porsche_Cayenne_S.jpg",
+              "trims": [
+                {
+                  "name": "Cayenne S",
+                  "year": 2004,
+                  "specs": {
+                    "bhp": 340,
+                    "torque_nm": 420,
+                    "weight_kg": 2245,
+                    "zero_to_100_s": 7.2,
+                    "engine": "4.5L",
+                    "engine_layout": "V8",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "AWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "PO536 Facelift",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/2024_Porsche_Cayenne_Turbo_GT_E-Hybrid_Auto.jpg",
+              "trims": [
+                {
+                  "name": "Turbo GT",
+                  "year": 2024,
+                  "specs": {
+                    "bhp": 659,
+                    "torque_nm": 850,
+                    "weight_kg": 2220,
+                    "zero_to_100_s": 3.3,
+                    "engine": "4.0L",
+                    "engine_layout": "V8",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "AWD"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
