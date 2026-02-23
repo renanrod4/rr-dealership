@@ -72,7 +72,7 @@
               "trims": [
                 {
                   "name": "911L",
-                  "image_url":"https://upload.wikimedia.org/wikipedia/commons/4/47/Nottuln%2C_Oldtimermuseum%2C_Porsche_911L_--_2021_--_4493.jpg",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Nottuln%2C_Oldtimermuseum%2C_Porsche_911L_--_2021_--_4493.jpg",
                   "year": 1968,
                   "specs": {
                     "bhp": 130,
@@ -87,7 +87,7 @@
                 },
                 {
                   "name": "Carrera RS 2.7",
-                  "image_url":"https://upload.wikimedia.org/wikipedia/commons/0/04/Porsche_911_Carrera_RS_P5190434.jpg",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Porsche_911_Carrera_RS_P5190434.jpg",
                   "year": 1973,
                   "specs": {
                     "bhp": 210,
@@ -108,7 +108,7 @@
               "trims": [
                 {
                   "name": "Carrera 3.0",
-                  "image_url":"https://upload.wikimedia.org/wikipedia/commons/3/35/Porsche_911_G-series_Carrera_coupes_%281976%29_Solitude_Revival_2022_1X7A0390.jpg",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Porsche_911_G-series_Carrera_coupes_%281976%29_Solitude_Revival_2022_1X7A0390.jpg",
                   "year": 1976,
                   "specs": {
                     "bhp": 200,
@@ -123,7 +123,7 @@
                 },
                 {
                   "name": "911 SC",
-                  "image_url":"https://upload.wikimedia.org/wikipedia/commons/a/ac/Porsche_911SC_%2834353976231%29.jpg",  
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Porsche_911SC_%2834353976231%29.jpg",
                   "year": 1986,
                   "specs": {
                     "bhp": 204,
@@ -137,18 +137,18 @@
                   }
                 },
                 {
-                    "name":"911sc Flachbau",
-                    "image_url":"https://upload.wikimedia.org/wikipedia/commons/7/79/Porsche_911SC_Slantnose_1982_1.jpg",
-                    "year": 1982,
-                    "specs": {
-                      "bhp": 204,
-                      "torque_nm": 267,
-                      "weight_kg": 1160,
-                      "zero_to_100_s": 6.2,
-                      "engine": "3.0L",
-                      "engine_layout": "Flat-6",
-                      "aspiration": "Naturally Aspirated",
-                      "drivetrain": "RWD"
+                  "name": "911sc Flachbau",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Porsche_911SC_Slantnose_1982_1.jpg",
+                  "year": 1982,
+                  "specs": {
+                    "bhp": 204,
+                    "torque_nm": 267,
+                    "weight_kg": 1160,
+                    "zero_to_100_s": 6.2,
+                    "engine": "3.0L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
                   }
                 }
               ]
@@ -266,7 +266,7 @@
                 {
                   "name": "911 Turbo S",
                   "year": 2014,
-                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/2014_Porsche_911_991_Turbo_S.jpg",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/2014_Porsche_911_Turbo_S_Exclusive_Series.jpg/960px-2014_Porsche_911_Turbo_S_Exclusive_Series.jpg",
                   "specs": {
                     "bhp": 560,
                     "torque_nm": 700,
@@ -383,7 +383,7 @@
                 {
                   "name": "GT3 Touring",
                   "year": 2022,
-                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Porsche_992_GT3_with_touring_package_1X7A6142.jpg",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Porsche_911_992_GT3_Touring_%2873261%29.jpg/960px-Porsche_911_992_GT3_Touring_%2873261%29.jpg",
                   "specs": {
                     "bhp": 503,
                     "torque_nm": 470,
@@ -524,12 +524,108 @@
               ]
             },
             {
-              "code": "PO536 Facelift",
+              "code": "2nd_Gen",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Porsche_Cayenne_S_%28PO536%29.jpg/960px-Porsche_Cayenne_S_%28PO536%29.jpg",
+              "trims": [
+                {
+                  "name": "Cayenne S",
+                  "year": 2011,
+                  "specs": {
+                    "bhp": 400,
+                    "torque_nm": 500,
+                    "weight_kg": 2065,
+                    "zero_to_100_s": 5.9,
+                    "engine": "4.8L",
+                    "engine_layout": "V8",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "AWD"
+                  }
+                },
+                {
+                  "name": "Cayenne GTS",
+                  "year": 2013,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Porsche_Cayenne_GTS_-_Flickr_-_Alexandre_Pr%C3%A9vot_%285%29.jpg/960px-Porsche_Cayenne_GTS_-_Flickr_-_Alexandre_Pr%C3%A9vot_%285%29.jpg",
+                  "specs": {
+                    "bhp": 420,
+                    "torque_nm": 515,
+                    "weight_kg": 2085,
+                    "zero_to_100_s": 5.7,
+                    "engine": "4.8L",
+                    "engine_layout": "V8",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "AWD"
+                  }
+                },
+                {
+                  "name": "Cayenne Turbo S",
+                  "year": 2014,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Salon_de_l%27auto_de_Gen%C3%A8ve_2014_-_20140305_-_Porsche_Cayenne_turbo_S_1.jpg/960px-Salon_de_l%27auto_de_Gen%C3%A8ve_2014_-_20140305_-_Porsche_Cayenne_turbo_S_1.jpg",
+                  "specs": {
+                    "bhp": 550,
+                    "torque_nm": 750,
+                    "weight_kg": 2215,
+                    "zero_to_100_s": 4.5,
+                    "engine": "4.8L",
+                    "engine_layout": "V8",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "AWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "3rd_Gen",
               "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/2024_Porsche_Cayenne_Turbo_GT_E-Hybrid_Auto.jpg",
               "trims": [
                 {
-                  "name": "Turbo GT",
+                  "name": "Cayenne S",
+                  "year": 2018,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Porsche_Cayenne_-_Type_PO536_-_Sanming_02_2022-08-27.jpg/960px-Porsche_Cayenne_-_Type_PO536_-_Sanming_02_2022-08-27.jpg",
+                  "specs": {
+                    "bhp": 440,
+                    "torque_nm": 550,
+                    "weight_kg": 2020,
+                    "zero_to_100_s": 4.9,
+                    "engine": "2.9L",
+                    "engine_layout": "V6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "AWD"
+                  }
+                },
+                {
+                  "name": "Cayenne E-Hybrid",
+                  "year": 2020,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Porsche_PO536_Cayenne_Turbo_E-Hybrid_IAA_2023_1X7A0536.jpg/960px-Porsche_PO536_Cayenne_Turbo_E-Hybrid_IAA_2023_1X7A0536.jpg",
+                  "specs": {
+                    "bhp": 462,
+                    "torque_nm": 700,
+                    "weight_kg": 2295,
+                    "zero_to_100_s": 5.0,
+                    "engine": "3.0L",
+                    "engine_layout": "V6 Hybrid",
+                    "aspiration": "Turbo",
+                    "drivetrain": "AWD"
+                  }
+                },
+                {
+                  "name": "Cayenne Turbo GT",
+                  "year": 2022,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Porsche_Cayenne_Turbo_GT_1.jpg/960px-Porsche_Cayenne_Turbo_GT_1.jpg",
+                  "specs": {
+                    "bhp": 640,
+                    "torque_nm": 850,
+                    "weight_kg": 2220,
+                    "zero_to_100_s": 3.3,
+                    "engine": "4.0L",
+                    "engine_layout": "V8",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "AWD"
+                  }
+                },
+                {
+                  "name": "Turbo GT (Facelift)",
                   "year": 2024,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/2024_Porsche_Cayenne_Turbo_GT_E-Hybrid_Auto.jpg",
                   "specs": {
                     "bhp": 659,
                     "torque_nm": 850,
@@ -539,6 +635,135 @@
                     "engine_layout": "V8",
                     "aspiration": "Twin-Turbo",
                     "drivetrain": "AWD"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "718",
+          "name": "718",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2003_Porsche_986_Boxster_S_%289523932267%29.jpg/960px-2003_Porsche_986_Boxster_S_%289523932267%29.jpg",
+          "generations": [
+            {
+              "code": "986-987",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2003_Porsche_986_Boxster_S_%289523932267%29.jpg/960px-2003_Porsche_986_Boxster_S_%289523932267%29.jpg",
+              "trims": [
+                {
+                  "name": "Boxster S (986)",
+                  "year": 2000,
+                  "specs": {
+                    "bhp": 252,
+                    "torque_nm": 305,
+                    "weight_kg": 1295,
+                    "zero_to_100_s": 5.9,
+                    "engine": "3.2L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "Cayman S (987)",
+                  "year": 2006,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/2006_Porsche_Cayman_%28987%29_S_coupe_%282015-06-03%29_01.jpg/960px-2006_Porsche_Cayman_%28987%29_S_coupe_%282015-06-03%29_01.jpg",
+                  "specs": {
+                    "bhp": 295,
+                    "torque_nm": 340,
+                    "weight_kg": 1340,
+                    "zero_to_100_s": 5.4,
+                    "engine": "3.4L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "981",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Porsche_981_Cayman_GT4_SCD_24.jpg/960px-Porsche_981_Cayman_GT4_SCD_24.jpg",
+              "trims": [
+                {
+                  "name": "Cayman GT4",
+                  "year": 2015,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Porsche_981_Cayman_GT4_SCD_24.jpg/960px-Porsche_981_Cayman_GT4_SCD_24.jpg",
+                  "specs": {
+                    "bhp": 385,
+                    "torque_nm": 420,
+                    "weight_kg": 1340,
+                    "zero_to_100_s": 4.4,
+                    "engine": "3.8L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "Boxster Spyder",
+                  "year": 2016,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/2015_Porsche_Boxster_Spyder_981.jpg/960px-2015_Porsche_Boxster_Spyder_981.jpg",
+                  "specs": {
+                    "bhp": 375,
+                    "torque_nm": 420,
+                    "weight_kg": 1315,
+                    "zero_to_100_s": 4.5,
+                    "engine": "3.8L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "982",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/2015_Porsche_Cayman_GT4_5.jpg/960px-2015_Porsche_Cayman_GT4_5.jpg",
+              "trims": [
+                {
+                  "name": "718 Cayman GT4",
+                  "year": 2020,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/2015_Porsche_Cayman_GT4_5.jpg/960px-2015_Porsche_Cayman_GT4_5.jpg",
+                  "specs": {
+                    "bhp": 420,
+                    "torque_nm": 420,
+                    "weight_kg": 1420,
+                    "zero_to_100_s": 4.4,
+                    "engine": "4.0L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "718 Cayman GT4 RS",
+                  "year": 2022,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/2022_Porsche_718_Cayman_GT4_RS_Weissach.jpg/960px-2022_Porsche_718_Cayman_GT4_RS_Weissach.jpg",
+                  "specs": {
+                    "bhp": 500,
+                    "torque_nm": 450,
+                    "weight_kg": 1415,
+                    "zero_to_100_s": 3.4,
+                    "engine": "4.0L",
+                    "engine_layout": "Flat-6 (911 GT3 Engine)",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "718 Spyder RS",
+                  "year": 2024,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Porsche_718_Boxster_Spyder_RS_IMG_9095.jpg/960px-Porsche_718_Boxster_Spyder_RS_IMG_9095.jpg",
+                  "specs": {
+                    "bhp": 500,
+                    "torque_nm": 450,
+                    "weight_kg": 1410,
+                    "zero_to_100_s": 3.4,
+                    "engine": "4.0L",
+                    "engine_layout": "Flat-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
                   }
                 }
               ]

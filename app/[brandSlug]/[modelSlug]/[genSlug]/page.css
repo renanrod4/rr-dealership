@@ -1,48 +1,171 @@
-/* Reutiliza o catalog-grid e car-card do seu page.css */
-
-.specs-container {
-    margin-top: 15px;
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Duas colunas de dados */
-    gap: 12px;
-    padding: 15px;
-    background: #f9f9f9;
-    border-radius: 4px;
+/* Layout Principal */
+.catalog-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
 }
 
-.spec-box {
+/* Cabeçalho Técnico */
+.catalog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.catalog-header h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    line-height: 1;
+    color: #111;
+}
+
+/* Grid de Navegação */
+.catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
+    gap: 30px;
+}
+
+/* O Card Estilo Gran Turismo */
+.car-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    text-decoration: none;
     display: flex;
     flex-direction: column;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    overflow: hidden;
 }
 
-.spec-label {
-    font-size: 0.6rem;
-    font-weight: 800;
-    color: #999;
+.car-card:hover {
+    border-color: #111;
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+/* Box da Imagem */
+.car-image-box {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.car-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(0.8); 
+    transition: transform 0.8s ease, filter 0.4s ease;
+}
+
+.car-card:hover .car-image-box img {
+    transform: scale(1.05);
+    filter: saturate(1.1);
+}
+
+/* Badge Superior (Ano ou Legend) */
+.badge-new {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #111;
+    color: #fff;
+    padding: 6px 15px;
+    font-size: 12px;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 1px;
+    z-index: 2;
     text-transform: uppercase;
+}
+
+/* Info do Carro */
+.car-info {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.generations {
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: #e30613;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+}
+
+.car-title {
+    font-size: 1.8rem; 
+    font-weight: 900;
+    font-style: italic;
+    color: #111;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+/* Rodapé do Card */
+.car-footer {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: 900;
+    color: #999;
     letter-spacing: 1px;
 }
 
-.spec-value {
-    font-size: 1rem;
-    font-weight: 900;
-    color: #111;
-    font-family: monospace; /* Fonte técnica */
+/* Barra Vermelha de Hover */
+.car-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background: #e30613;
+    transition: width 0.4s ease;
 }
 
-.spec-value small {
-    font-size: 0.6rem;
-    color: #e30613;
-    margin-left: 2px;
+.car-card:hover::after {
+    width: 100%;
 }
 
-/* Badge específica para o tipo de tração */
-.drivetrain-badge {
-    font-size: 0.6rem;
+/* Botão de Voltar Personalizado */
+.back-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     background: #111;
     color: #fff;
-    padding: 2px 6px;
+    border: none;
+    padding: 8px 16px;
+    font-size: 0.7rem;
     font-weight: 900;
-    margin-left: 5px;
-    vertical-align: middle;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-bottom: 20px;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%); 
+    padding-left: 20px;
+}
+
+.back-button:hover {
+    background: #e30613;
+    transform: translateX(-5px);
 }

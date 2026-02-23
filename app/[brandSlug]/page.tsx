@@ -5,7 +5,7 @@ import Image from "next/image";
 import { FaArrowRightLong } from "react-icons/fa6"
 import BackButton from "@/components/backButton";
 export default async function BrandPage({ params }: { params: Promise<{ brandSlug: string }> }) {
-    // RESOLVE O ERRO DE PARAMS AQUI
+    
     const { brandSlug } = await params;
 
     let models: modelSummary[] = [];
@@ -43,11 +43,10 @@ export default async function BrandPage({ params }: { params: Promise<{ brandSlu
                             <Image 
                                 src={model.image_url} 
                                 alt={model.name} 
-                                width={600} // Aumentado para melhor qualidade
-                                height={338} // Proporção 16:9
+                                width={600} 
+                                height={338} 
                                 className="object-cover"
                             />
-                            {/* Se for um 911, mantemos o selo de lenda */}
                             {model.name.includes("911") && <span className="badge-new">LEGEND</span>}
                         </div>
                         
