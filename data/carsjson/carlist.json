@@ -4,6 +4,7 @@
       "slug": "porsche",
       "name": "Porsche",
       "country": "Germany",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Newporschecrest.jpg/500px-Newporschecrest.jpg",
       "founded": 1931,
       "models": [
         {
