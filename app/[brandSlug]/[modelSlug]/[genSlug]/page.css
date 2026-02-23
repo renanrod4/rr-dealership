@@ -1,0 +1,48 @@
+/* Reutiliza o catalog-grid e car-card do seu page.css */
+
+.specs-container {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Duas colunas de dados */
+    gap: 12px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.spec-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.spec-label {
+    font-size: 0.6rem;
+    font-weight: 800;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.spec-value {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #111;
+    font-family: monospace; /* Fonte técnica */
+}
+
+.spec-value small {
+    font-size: 0.6rem;
+    color: #e30613;
+    margin-left: 2px;
+}
+
+/* Badge específica para o tipo de tração */
+.drivetrain-badge {
+    font-size: 0.6rem;
+    background: #111;
+    color: #fff;
+    padding: 2px 6px;
+    font-weight: 900;
+    margin-left: 5px;
+    vertical-align: middle;
+}

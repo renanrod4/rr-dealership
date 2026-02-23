@@ -4,13 +4,15 @@ import './page.css'
 import Image from "next/image";
 import { FaArrowRightLong } from "react-icons/fa6"
 import BackButton from "@/components/backButton";
+export default async function BrandPage({ params }: { params: Promise<{ brandSlug: string }> }) {
+    // RESOLVE O ERRO DE PARAMS AQUI
+    const { brandSlug } = await params;
 
-export default async function BrandPage({ params }: { params: { brandSlug: string } }) {
     let models: modelSummary[] = [];
     let brandName = "";
 
     try {
-        const res = await fetch(`${baseUrl}/api/cars?brand=${params.brandSlug}`, {
+        const res = await fetch(`${baseUrl}/api/cars?brand=${brandSlug}`, {
             next: { revalidate: 3600 }
         });
         const brandData = await res.json();
@@ -22,7 +24,6 @@ export default async function BrandPage({ params }: { params: { brandSlug: strin
 
     return (
         <main className="catalog-container">
-            {/* Botão de Voltar posicionado acima do Header */}
             <BackButton />
 
             <header className="catalog-header">
@@ -37,15 +38,16 @@ export default async function BrandPage({ params }: { params: { brandSlug: strin
 
             <div className="catalog-grid">
                 {models.map((model) => (
-                    <a key={model.slug} href={`/${params.brandSlug}/${model.slug}`} className="car-card">
+                    <a key={model.slug} href={`/${brandSlug}/${model.slug}`} className="car-card">
                         <div className="car-image-box">
                             <Image 
                                 src={model.image_url} 
                                 alt={model.name} 
-                                width={480} 
-                                height={480} 
+                                width={600} // Aumentado para melhor qualidade
+                                height={338} // Proporção 16:9
                                 className="object-cover"
                             />
+                            {/* Se for um 911, mantemos o selo de lenda */}
                             {model.name.includes("911") && <span className="badge-new">LEGEND</span>}
                         </div>
                         
@@ -56,10 +58,8 @@ export default async function BrandPage({ params }: { params: { brandSlug: strin
                             <span className="car-title">{model.name}</span>
                             
                             <div className="car-footer">
-                                <span>VIEW DETAILS</span>
-                                <span className="flex items-center justify-center">
-                                    <FaArrowRightLong size={12} />
-                                </span>
+                                <span>EXPLORE LINEUP</span>
+                                <FaArrowRightLong size={14} color="#e30613" />
                             </div>
                         </div>
                     </a>

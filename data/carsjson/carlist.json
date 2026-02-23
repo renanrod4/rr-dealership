@@ -68,10 +68,11 @@
           "generations": [
             {
               "code": "F-Series",
-              "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Nottuln%2C_Oldtimermuseum%2C_Porsche_911L_--2021--_4493.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Porsche_911-_P5190545.jpg",
               "trims": [
                 {
                   "name": "911L",
+                  "image_url":"https://upload.wikimedia.org/wikipedia/commons/4/47/Nottuln%2C_Oldtimermuseum%2C_Porsche_911L_--_2021_--_4493.jpg",
                   "year": 1968,
                   "specs": {
                     "bhp": 130,
@@ -86,6 +87,7 @@
                 },
                 {
                   "name": "Carrera RS 2.7",
+                  "image_url":"https://upload.wikimedia.org/wikipedia/commons/0/04/Porsche_911_Carrera_RS_P5190434.jpg",
                   "year": 1973,
                   "specs": {
                     "bhp": 210,
@@ -102,10 +104,11 @@
             },
             {
               "code": "G-Series",
-              "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/1976_Porsche_911_Carrera_3.0_%28no_127%29%2C_Rallye_Monte-Carlo_Historique_2025%2C_Bad_Homburg_%28P1033232%29.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Porsche_911_G-series_Carrera_coupes_%281976%29_Solitude_Revival_2022_1X7A0390.jpg",
               "trims": [
                 {
                   "name": "Carrera 3.0",
+                  "image_url":"https://upload.wikimedia.org/wikipedia/commons/3/35/Porsche_911_G-series_Carrera_coupes_%281976%29_Solitude_Revival_2022_1X7A0390.jpg",
                   "year": 1976,
                   "specs": {
                     "bhp": 200,
@@ -120,6 +123,7 @@
                 },
                 {
                   "name": "911 SC",
+                  "image_url":"https://upload.wikimedia.org/wikipedia/commons/a/ac/Porsche_911SC_%2834353976231%29.jpg",  
                   "year": 1986,
                   "specs": {
                     "bhp": 204,
@@ -131,15 +135,31 @@
                     "aspiration": "Naturally Aspirated",
                     "drivetrain": "RWD"
                   }
+                },
+                {
+                    "name":"911sc Flachbau",
+                    "image_url":"https://upload.wikimedia.org/wikipedia/commons/7/79/Porsche_911SC_Slantnose_1982_1.jpg",
+                    "year": 1982,
+                    "specs": {
+                      "bhp": 204,
+                      "torque_nm": 267,
+                      "weight_kg": 1160,
+                      "zero_to_100_s": 6.2,
+                      "engine": "3.0L",
+                      "engine_layout": "Flat-6",
+                      "aspiration": "Naturally Aspirated",
+                      "drivetrain": "RWD"
+                  }
                 }
               ]
             },
             {
               "code": "964",
-              "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Porsche_911_%28964%29.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/1992_Porsche_911_964_Carrera_2_2.jpg/960px-1992_Porsche_911_964_Carrera_2_2.jpg",
               "trims": [
                 {
                   "name": "Carrera 2",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/1992_Porsche_911_964_Carrera_2_2.jpg/960px-1992_Porsche_911_964_Carrera_2_2.jpg",
                   "year": 1991,
                   "specs": {
                     "bhp": 247,
@@ -156,7 +176,7 @@
             },
             {
               "code": "993",
-              "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Porsche_993_targa_mainz.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/1997_Porsche_911_993_Carrera.jpg/960px-1997_Porsche_911_993_Carrera.jpg",
               "trims": [
                 {
                   "name": "Carrera",
@@ -176,7 +196,7 @@
             },
             {
               "code": "996",
-              "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/2004_Porsche_996X50.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/PORSCHE_911_CARRERA_4S_%28996%29_China_%282%29.jpg/960px-PORSCHE_911_CARRERA_4S_%28996%29_China_%282%29.jpg",
               "trims": [
                 {
                   "name": "Carrera 4S",
@@ -196,12 +216,12 @@
             },
             {
               "code": "991.1",
-              "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/2013_Porsche_911_Carrera_4S_%28991%29_%289626546987%29.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/2015_Porsche_911_991_Carrera_4S.jpg/960px-2015_Porsche_911_991_Carrera_4S.jpg",
               "trims": [
                 {
                   "name": "911 Carrera 4S",
                   "year": 2013,
-                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/2013_Porsche_911_Carrera_4S_%28991%29_%289626546987%29.jpg",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/2015_Porsche_911_991_Carrera_4S.jpg/960px-2015_Porsche_911_991_Carrera_4S.jpg",
                   "specs": {
                     "bhp": 400,
                     "torque_nm": 440,
@@ -262,12 +282,12 @@
             },
             {
               "code": "991.2",
-              "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/2018_Porsche_911_Carrera_S.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Porsche_911_Carrera_S_%2831293970827%29.jpg/960px-Porsche_911_Carrera_S_%2831293970827%29.jpg",
               "trims": [
                 {
                   "name": "Carrera S",
                   "year": 2018,
-                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/2018_Porsche_911_Carrera_S.jpg",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Porsche_911_Carrera_S_%2831293970827%29.jpg/960px-Porsche_911_Carrera_S_%2831293970827%29.jpg",
                   "specs": {
                     "bhp": 420,
                     "torque_nm": 500,
@@ -328,11 +348,11 @@
             },
             {
               "code": "992",
-              "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/2025_Porsche_992_Carrera_convertible_Auto_Zuerich_2024_DSC_6527.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2025_Porsche_992_Carrera_convertible_DSC_7026_%28cropped%29.jpg/960px-2025_Porsche_992_Carrera_convertible_DSC_7026_%28cropped%29.jpg",
               "trims": [
                 {
                   "name": "Carrera Convertible",
-                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/2025_Porsche_992_Carrera_convertible_Auto_Zuerich_2024_DSC_6527.jpg",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2025_Porsche_992_Carrera_convertible_DSC_7026_%28cropped%29.jpg/960px-2025_Porsche_992_Carrera_convertible_DSC_7026_%28cropped%29.jpg",
                   "year": 2025,
                   "specs": {
                     "bhp": 388,
