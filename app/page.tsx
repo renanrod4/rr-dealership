@@ -1,18 +1,9 @@
 import Image from "next/image";
 import './page.css'
-
-interface BrandSummary {
-  slug: string;
-  name: string;
-  country: string;
-  founded: number;
-  logo_url: string;
-  modelCount: number;
-}
-
+import { baseUrl } from "@/constants";
+import { BrandSummary } from "@/types/types";
 
 export default async function Home() {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
 
   let brands: BrandSummary[] = [];
 
