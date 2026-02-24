@@ -928,7 +928,7 @@
                 {
                   "name": "Type S",
                   "year": 2003,
-                  "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Mazda_ABA-SE3P_RX-8_Type_S_%2823112610460%29.jpg/960px-Mazda_ABA-SE3P_RX-8_Type_S_%2823112610460%29.jpg",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Mazda_ABA-SE3P_RX-8_Type_S_%2823112610460%29.jpg/960px-Mazda_ABA-SE3P_RX-8_Type_S_%2823112610460%29.jpg",
                   "price_brl": 120000,
                   "specs": {
                     "bhp": 250,
@@ -944,7 +944,7 @@
                 {
                   "name": "R3 Edition",
                   "year": 2009,
-                  "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/2010_Mazda_RX-8_R3_--_09-03-2009.jpg/960px-2010_Mazda_RX-8_R3_--_09-03-2009.jpg",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/2010_Mazda_RX-8_R3_--_09-03-2009.jpg/960px-2010_Mazda_RX-8_R3_--_09-03-2009.jpg",
                   "price_brl": 185000,
                   "specs": {
                     "bhp": 232,
@@ -960,7 +960,7 @@
                 {
                   "name": "Spirit R",
                   "year": 2012,
-                  "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Mazda_RX8_Spirit_R%2C_Bangladesh._%2842612097870%29.jpg/960px-Mazda_RX8_Spirit_R%2C_Bangladesh._%2842612097870%29.jpg",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Mazda_RX8_Spirit_R%2C_Bangladesh._%2842612097870%29.jpg/960px-Mazda_RX8_Spirit_R%2C_Bangladesh._%2842612097870%29.jpg",
                   "price_brl": 320000,
                   "specs": {
                     "bhp": 232,
@@ -1096,11 +1096,11 @@
         {
           "slug": "m3",
           "name": "M3",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/BMW_M3_E92_Front.jpg/1200px-BMW_M3_E92_Front.jpg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/BMW_M3_GTS_E92_%285699109239%29.jpg/960px-BMW_M3_GTS_E92_%285699109239%29.jpg",
           "generations": [
             {
               "code": "E30",
-              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/BMW_M3_E30_Red.jpg/1200px-BMW_M3_E30_Red.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/1991_BMW_M3_Evo_II_BS_O24.jpg/960px-1991_BMW_M3_Evo_II_BS_O24.jpg",
               "trims": [
                 {
                   "name": "Sport Evolution (EVO3)",
@@ -1121,7 +1121,7 @@
             },
             {
               "code": "E46",
-              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/BMW_M3_E46_Silver.jpg/1200px-BMW_M3_E46_Silver.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/BMW_E46_M3_CSL_AZUL.jpg/960px-BMW_E46_M3_CSL_AZUL.jpg",
               "trims": [
                 {
                   "name": "M3 CSL",
@@ -1142,7 +1142,7 @@
             },
             {
               "code": "E92",
-              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/BMW_M3_E92_Front.jpg/1200px-BMW_M3_E92_Front.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/BMW_M3_GTS_E92_%285699109239%29.jpg/960px-BMW_M3_GTS_E92_%285699109239%29.jpg",
               "trims": [
                 {
                   "name": "M3 GTS",
@@ -1160,18 +1160,92 @@
                   }
                 }
               ]
+            },
+            {
+              "code": "F80",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Blue_BMW_M3_FOS22_R40.jpg/960px-Blue_BMW_M3_FOS22_R40.jpg",
+              "trims": [
+                {
+                  "name": "M3 Competition",
+                  "year": 2018,
+                  "price_brl": 520000,
+                  "specs": {
+                    "bhp": 450,
+                    "torque_nm": 550,
+                    "weight_kg": 1585,
+                    "zero_to_100_s": 4.0,
+                    "engine": "3.0L S55",
+                    "engine_layout": "Inline-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
             }
           ]
         },
         {
           "slug": "m4",
           "name": "M4",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/BMW_M4_G82_Front.jpg/1200px-BMW_M4_G82_Front.jpg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/2022_BMW_M4_CSL_FOS22.jpg/960px-2022_BMW_M4_CSL_FOS22.jpg",
           "generations": [
             {
-              "code": "G82",
-              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/BMW_M4_G82_Front.jpg/1200px-BMW_M4_G82_Front.jpg",
+              "code": "F82",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2016_BMW_M4_GTS_BS_O25_low.jpg/960px-2016_BMW_M4_GTS_BS_O25_low.jpg",
               "trims": [
+                {
+                  "name": "M4 GTS",
+                  "year": 2016,
+                  "price_brl": 780000,
+                  "specs": {
+                    "bhp": 500,
+                    "torque_nm": 600,
+                    "weight_kg": 1510,
+                    "zero_to_100_s": 3.8,
+                    "engine": "3.0L S55",
+                    "engine_layout": "Inline-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "M4 CS",
+                  "year": 2017,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/2018_BMW_M4_CS_2.jpg/960px-2018_BMW_M4_CS_2.jpg",
+                  "price_brl": 620000,
+                  "specs": {
+                    "bhp": 460,
+                    "torque_nm": 600,
+                    "weight_kg": 1580,
+                    "zero_to_100_s": 3.9,
+                    "engine": "3.0L S55",
+                    "engine_layout": "Inline-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "G82",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/2022_BMW_M4_CSL_FOS22.jpg/960px-2022_BMW_M4_CSL_FOS22.jpg",
+              "trims": [
+                {
+                  "name": "M4 CS",
+                  "year": 2024,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/BMW_M4_CS_%28G82%29_IMG_0107.jpg/960px-BMW_M4_CS_%28G82%29_IMG_0107.jpg",
+                  "price_brl": 1250000,
+                  "specs": {
+                    "bhp": 550,
+                    "torque_nm": 650,
+                    "weight_kg": 1760,
+                    "zero_to_100_s": 3.4,
+                    "engine": "3.0L S58",
+                    "engine_layout": "Inline-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "M xDrive (AWD)"
+                  }
+                },
                 {
                   "name": "M4 CSL",
                   "year": 2023,
@@ -1192,27 +1266,260 @@
           ]
         },
         {
-          "slug": "m5",
-          "name": "M5",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/BMW_M5_CS_Green.jpg/1200px-BMW_M5_CS_Green.jpg",
+          "slug": "3-series",
+          "name": "320i",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/BMW_3_SERIES_SEDAN_%28G20%29_China.jpg/960px-BMW_3_SERIES_SEDAN_%28G20%29_China.jpg",
           "generations": [
             {
-              "code": "F90",
-              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/BMW_M5_CS_Green.jpg/1200px-BMW_M5_CS_Green.jpg",
+              "code": "G20",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/BMW_3_SERIES_SEDAN_%28G20%29_China.jpg/960px-BMW_3_SERIES_SEDAN_%28G20%29_China.jpg",
               "trims": [
                 {
-                  "name": "M5 CS",
-                  "year": 2022,
-                  "price_brl": 1600000,
+                  "name": "320i M Sport",
+                  "year": 2024,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/BMW_3_SERIES_SEDAN_%28G20%29_China.jpg/960px-BMW_3_SERIES_SEDAN_%28G20%29_China.jpg",
+                  "price_brl": 350000,
                   "specs": {
-                    "bhp": 635,
+                    "bhp": 184,
+                    "torque_nm": 300,
+                    "weight_kg": 1460,
+                    "zero_to_100_s": 7.1,
+                    "engine": "2.0L B48",
+                    "engine_layout": "Inline-4",
+                    "aspiration": "TwinPower Turbo",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "z3",
+          "name": "Z3",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/BMW_Z3_M_%28E36-8%29_IMG_8842.jpg/960px-BMW_Z3_M_%28E36-8%29_IMG_8842.jpg",
+          "generations": [
+            {
+              "code": "E36/7",
+              "trims": [
+                {
+                  "name": "Z3 Roadster",
+                  "year": 2001,
+                  "price_brl": 180000,
+                  "specs": {
+                    "bhp": 231,
+                    "torque_nm": 300,
+                    "weight_kg": 1335,
+                    "zero_to_100_s": 5.9,
+                    "engine": "3.0L M54",
+                    "engine_layout": "Inline-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "i8",
+          "name": "i8",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/2016_BMW_i8.jpg/960px-2016_BMW_i8.jpg",
+          "generations": [
+            {
+              "code": "I12",
+              "trims": [
+                {
+                  "name": "i8 Roadster",
+                  "year": 2019,
+                  "price_brl": 720000,
+                  "specs": {
+                    "bhp": 374,
+                    "torque_nm": 570,
+                    "weight_kg": 1595,
+                    "zero_to_100_s": 4.6,
+                    "engine": "1.5L Hybrid",
+                    "engine_layout": "Inline-3 + Electric",
+                    "aspiration": "Turbocharged",
+                    "drivetrain": "AWD"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "x5",
+          "name": "X5",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/BMW_X5_M_%28F95%29_China.jpg/960px-BMW_X5_M_%28F95%29_China.jpg",
+          "generations": [
+            {
+              "code": "F95",
+              "trims": [
+                {
+                  "name": "X5 M Competition",
+                  "year": 2024,
+                  "price_brl": 1150000,
+                  "specs": {
+                    "bhp": 625,
                     "torque_nm": 750,
-                    "weight_kg": 1825,
-                    "zero_to_100_s": 3.0,
-                    "engine": "4.4L S63",
+                    "weight_kg": 2310,
+                    "zero_to_100_s": 3.9,
+                    "engine": "4.4L S68",
                     "engine_layout": "V8",
                     "aspiration": "Twin-Turbo",
-                    "drivetrain": "M xDrive (AWD)"
+                    "drivetrain": "AWD"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "m2",
+          "name": "M2",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/2020_BMW_M2_CS_Auto.jpg/960px-2020_BMW_M2_CS_Auto.jpg",
+          "generations": [
+            {
+              "code": "F87",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/2020_BMW_M2_CS_Auto.jpg/960px-2020_BMW_M2_CS_Auto.jpg",
+              "trims": [
+                {
+                  "name": "M2 CS",
+                  "year": 2020,
+                  "price_brl": 720000,
+                  "specs": {
+                    "bhp": 450,
+                    "torque_nm": 550,
+                    "weight_kg": 1550,
+                    "zero_to_100_s": 4.0,
+                    "engine": "3.0L S55",
+                    "engine_layout": "Inline-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "M2 Competition",
+                  "year": 2019,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/BMW_M2_%28F87%29_Greater_Toronto_Area%2C_Canada.jpg/960px-BMW_M2_%28F87%29_Greater_Toronto_Area%2C_Canada.jpg",
+                  "price_brl": 620000,
+                  "specs": {
+                    "bhp": 410,
+                    "torque_nm": 550,
+                    "weight_kg": 1550,
+                    "zero_to_100_s": 4.2,
+                    "engine": "3.0L S55",
+                    "engine_layout": "Inline-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "M2 Base",
+                  "year": 2016,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/BMW_M2_5.jpg/960px-BMW_M2_5.jpg",
+                  "price_brl": 480000,
+                  "specs": {
+                    "bhp": 370,
+                    "torque_nm": 465,
+                    "weight_kg": 1550,
+                    "zero_to_100_s": 4.5,
+                    "engine": "3.0L N55",
+                    "engine_layout": "Inline-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "G87",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/BMW_G87_M2_1X7A6857_more-neutral.jpg/960px-BMW_G87_M2_1X7A6857_more-neutral.jpg",
+              "trims": [
+                {
+                  "name": "M2 Coupé",
+                  "year": 2024,
+                  "price_brl": 620000,
+                  "specs": {
+                    "bhp": 460,
+                    "torque_nm": 550,
+                    "weight_kg": 1725,
+                    "zero_to_100_s": 4.1,
+                    "engine": "3.0L S58",
+                    "engine_layout": "Inline-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "z4",
+          "name": "Z4",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/BMW_G29_Z4_M40i_%28Facelift%29_1X7A6946.jpg/960px-BMW_G29_Z4_M40i_%28Facelift%29_1X7A6946.jpg",
+          "generations": [
+            {
+              "code": "E85",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/2007_BMW_Z4_M_Roadster_Silver.jpg/960px-2007_BMW_Z4_M_Roadster_Silver.jpg",
+              "trims": [
+                {
+                  "name": "Z4 M Roadster",
+                  "year": 2006,
+                  "price_brl": 320000,
+                  "specs": {
+                    "bhp": 343,
+                    "torque_nm": 365,
+                    "weight_kg": 1485,
+                    "zero_to_100_s": 5.0,
+                    "engine": "3.2L S54",
+                    "engine_layout": "Inline-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "E89",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/BMW_Z4_%28E89%29_front_20100815.jpg/960px-BMW_Z4_%28E89%29_front_20100815.jpg",
+              "trims": [
+                {
+                  "name": "sDrive35is",
+                  "year": 2011,
+                  "price_brl": 260000,
+                  "specs": {
+                    "bhp": 340,
+                    "torque_nm": 450,
+                    "weight_kg": 1600,
+                    "zero_to_100_s": 4.8,
+                    "engine": "3.0L N54",
+                    "engine_layout": "Inline-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "G29",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/BMW_G29_Z4_M40i_%28Facelift%29_1X7A6946.jpg/960px-BMW_G29_Z4_M40i_%28Facelift%29_1X7A6946.jpg",
+              "trims": [
+                {
+                  "name": "M40i Pure Impulse",
+                  "year": 2024,
+                  "price_brl": 600000,
+                  "specs": {
+                    "bhp": 340,
+                    "torque_nm": 500,
+                    "weight_kg": 1640,
+                    "zero_to_100_s": 4.5,
+                    "engine": "3.0L B58",
+                    "engine_layout": "Inline-6",
+                    "aspiration": "TwinPower Turbo",
+                    "drivetrain": "RWD (Manual Option)"
                   }
                 }
               ]
