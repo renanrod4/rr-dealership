@@ -43,7 +43,7 @@ export default async function TrimsPage({
 
             <div className="catalog-grid">
                 {generationData.trims.map((trim: any) => (
-                    /* Link para a página individual da versão */
+
                     <a
                         key={trim.name}
                         href={`/${brandSlug}/${modelSlug}/${genSlug}/${trim.name.toLowerCase().replace(/ /g, '-')}`}
@@ -57,13 +57,12 @@ export default async function TrimsPage({
                                 height={338}
                                 className="object-cover"
                             />
-                            {/* O ano do carro na badge preta que você criou */}
                             <span className="badge-new">{trim.year}</span>
                         </div>
 
                         <div className="car-info">
-                            <span className="generations">
-                                Technical Variant
+                            <span className="price">
+                                {trim.price_brl ? `R$${trim.price_brl.toLocaleString()}` : 'Price N/A'}
                             </span>
                             <span className="car-title">{trim.name}</span>
 

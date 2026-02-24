@@ -20,6 +20,8 @@ export interface generationSummary {
 }
 export interface trimSummary {
   name: string;
+  year: number;
+  price_brl: number;
   image_url?: string;
   specs: specSummary;
   

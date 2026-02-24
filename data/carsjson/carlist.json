@@ -13,12 +13,13 @@
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Porsche_356_Nr._1_Roadster_1948.jpg",
           "generations": [
             {
-              "code": "Pre-A/A/B/C",
+              "code": "C",
               "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Porsche_356_SC_1964.jpg",
               "trims": [
                 {
                   "name": "356 SC",
                   "year": 1964,
+                  "price_brl": 1200000,
                   "specs": {
                     "bhp": 95,
                     "torque_nm": 123,
@@ -46,6 +47,7 @@
                 {
                   "name": "550 Spyder",
                   "year": 1955,
+                  "price_brl": 50000000,
                   "specs": {
                     "bhp": 110,
                     "torque_nm": 121,
@@ -72,8 +74,9 @@
               "trims": [
                 {
                   "name": "911L",
-                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Nottuln%2C_Oldtimermuseum%2C_Porsche_911L_--_2021_--_4493.jpg",
                   "year": 1968,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Nottuln%2C_Oldtimermuseum%2C_Porsche_911L_--_2021_--_4493.jpg",
+                  "price_brl": 1500000,
                   "specs": {
                     "bhp": 130,
                     "torque_nm": 174,
@@ -87,8 +90,8 @@
                 },
                 {
                   "name": "Carrera RS 2.7",
-                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Porsche_911_Carrera_RS_P5190434.jpg",
                   "year": 1973,
+                  "price_brl": 12000000,
                   "specs": {
                     "bhp": 210,
                     "torque_nm": 255,
@@ -108,8 +111,8 @@
               "trims": [
                 {
                   "name": "Carrera 3.0",
-                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Porsche_911_G-series_Carrera_coupes_%281976%29_Solitude_Revival_2022_1X7A0390.jpg",
                   "year": 1976,
+                  "price_brl": 850000,
                   "specs": {
                     "bhp": 200,
                     "torque_nm": 255,
@@ -123,8 +126,9 @@
                 },
                 {
                   "name": "911 SC",
-                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Porsche_911SC_%2834353976231%29.jpg",
                   "year": 1986,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Porsche_911SC_%2834353976231%29.jpg",
+                  "price_brl": 780000,
                   "specs": {
                     "bhp": 204,
                     "torque_nm": 267,
@@ -138,8 +142,9 @@
                 },
                 {
                   "name": "911sc Flachbau",
-                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Porsche_911SC_Slantnose_1982_1.jpg",
                   "year": 1982,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Porsche_911SC_Slantnose_1982_1.jpg",
+                  "price_brl": 2500000,
                   "specs": {
                     "bhp": 204,
                     "torque_nm": 267,
@@ -159,8 +164,8 @@
               "trims": [
                 {
                   "name": "Carrera 2",
-                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/1992_Porsche_911_964_Carrera_2_2.jpg/960px-1992_Porsche_911_964_Carrera_2_2.jpg",
                   "year": 1991,
+                  "price_brl": 950000,
                   "specs": {
                     "bhp": 247,
                     "torque_nm": 310,
@@ -181,6 +186,7 @@
                 {
                   "name": "Carrera",
                   "year": 1996,
+                  "price_brl": 1100000,
                   "specs": {
                     "bhp": 285,
                     "torque_nm": 340,
@@ -201,6 +207,7 @@
                 {
                   "name": "Carrera 4S",
                   "year": 2002,
+                  "price_brl": 450000,
                   "specs": {
                     "bhp": 320,
                     "torque_nm": 370,
@@ -221,7 +228,7 @@
                 {
                   "name": "911 Carrera 4S",
                   "year": 2013,
-                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/2015_Porsche_911_991_Carrera_4S.jpg/960px-2015_Porsche_911_991_Carrera_4S.jpg",
+                  "price_brl": 680000,
                   "specs": {
                     "bhp": 400,
                     "torque_nm": 440,
@@ -237,6 +244,7 @@
                   "name": "911 GT3",
                   "year": 2014,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Porsche_911_GT3_%28991.1%29_Washington_DC_Metro_Area%2C_USA_%283%29.jpg",
+                  "price_brl": 1100000,
                   "specs": {
                     "bhp": 475,
                     "torque_nm": 440,
@@ -252,6 +260,7 @@
                   "name": "911 GT3 RS",
                   "year": 2015,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Porsche_911_%28991.1%29_GT3_RS.jpg",
+                  "price_brl": 1800000,
                   "specs": {
                     "bhp": 500,
                     "torque_nm": 460,
@@ -267,6 +276,7 @@
                   "name": "911 Turbo S",
                   "year": 2014,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/2014_Porsche_911_Turbo_S_Exclusive_Series.jpg/960px-2014_Porsche_911_Turbo_S_Exclusive_Series.jpg",
+                  "price_brl": 1350000,
                   "specs": {
                     "bhp": 560,
                     "torque_nm": 700,
@@ -287,7 +297,7 @@
                 {
                   "name": "Carrera S",
                   "year": 2018,
-                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Porsche_911_Carrera_S_%2831293970827%29.jpg/960px-Porsche_911_Carrera_S_%2831293970827%29.jpg",
+                  "price_brl": 890000,
                   "specs": {
                     "bhp": 420,
                     "torque_nm": 500,
@@ -303,6 +313,7 @@
                   "name": "GT3",
                   "year": 2018,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Porsche_911_GT3_%28991.2%29_Washington_DC_Metro_Area%2C_USA.jpg",
+                  "price_brl": 1600000,
                   "specs": {
                     "bhp": 500,
                     "torque_nm": 460,
@@ -318,6 +329,7 @@
                   "name": "GT2 RS",
                   "year": 2018,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Porsche_GT2_RS%2C_IAA_2017%2C_Frankfurt_%281Y7A2769%29.jpg/640px-Porsche_GT2_RS%2C_IAA_2017%2C_Frankfurt_%281Y7A2769%29.jpg",
+                  "price_brl": 4500000,
                   "specs": {
                     "bhp": 700,
                     "torque_nm": 750,
@@ -333,6 +345,7 @@
                   "name": "Turbo S",
                   "year": 2017,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Porsche_991.2_911_Turbo_S_Racing_Yellow_%281%29.jpg",
+                  "price_brl": 1550000,
                   "specs": {
                     "bhp": 580,
                     "torque_nm": 750,
@@ -352,8 +365,8 @@
               "trims": [
                 {
                   "name": "Carrera Convertible",
-                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2025_Porsche_992_Carrera_convertible_DSC_7026_%28cropped%29.jpg/960px-2025_Porsche_992_Carrera_convertible_DSC_7026_%28cropped%29.jpg",
                   "year": 2025,
+                  "price_brl": 950000,
                   "specs": {
                     "bhp": 388,
                     "torque_nm": 450,
@@ -369,6 +382,7 @@
                   "name": "GT3",
                   "year": 2022,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Porsche_911_992_GT3.jpg",
+                  "price_brl": 1950000,
                   "specs": {
                     "bhp": 503,
                     "torque_nm": 470,
@@ -384,6 +398,7 @@
                   "name": "GT3 Touring",
                   "year": 2022,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Porsche_911_992_GT3_Touring_%2873261%29.jpg/960px-Porsche_911_992_GT3_Touring_%2873261%29.jpg",
+                  "price_brl": 2100000,
                   "specs": {
                     "bhp": 503,
                     "torque_nm": 470,
@@ -399,6 +414,7 @@
                   "name": "GT3 RS",
                   "year": 2023,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Porsche_992_GT3_RS_DSC_9055.jpg",
+                  "price_brl": 4200000,
                   "specs": {
                     "bhp": 518,
                     "torque_nm": 465,
@@ -414,6 +430,7 @@
                   "name": "Turbo S",
                   "year": 2022,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Porsche_992_Turbo_S_1X7A6046_%28cropped%29.jpg",
+                  "price_brl": 1750000,
                   "specs": {
                     "bhp": 640,
                     "torque_nm": 800,
@@ -429,6 +446,7 @@
                   "name": "Turbo S Cabriolet",
                   "year": 2022,
                   "image_url": "http://upload.wikimedia.org/wikipedia/commons/5/5e/Porsche_911_Turbo_S_Cabriolet_%28992%29_Miami_Metro_Area%2C_USA.jpg",
+                  "price_brl": 1850000,
                   "specs": {
                     "bhp": 640,
                     "torque_nm": 800,
@@ -456,6 +474,7 @@
                 {
                   "name": "959 Komfort",
                   "year": 1987,
+                  "price_brl": 20000000,
                   "specs": {
                     "bhp": 444,
                     "torque_nm": 500,
@@ -483,6 +502,7 @@
                 {
                   "name": "928 GTS",
                   "year": 1993,
+                  "price_brl": 650000,
                   "specs": {
                     "bhp": 345,
                     "torque_nm": 500,
@@ -510,6 +530,7 @@
                 {
                   "name": "Cayenne S",
                   "year": 2004,
+                  "price_brl": 110000,
                   "specs": {
                     "bhp": 340,
                     "torque_nm": 420,
@@ -530,6 +551,7 @@
                 {
                   "name": "Cayenne S",
                   "year": 2011,
+                  "price_brl": 195000,
                   "specs": {
                     "bhp": 400,
                     "torque_nm": 500,
@@ -545,6 +567,7 @@
                   "name": "Cayenne GTS",
                   "year": 2013,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Porsche_Cayenne_GTS_-_Flickr_-_Alexandre_Pr%C3%A9vot_%285%29.jpg/960px-Porsche_Cayenne_GTS_-_Flickr_-_Alexandre_Pr%C3%A9vot_%285%29.jpg",
+                  "price_brl": 280000,
                   "specs": {
                     "bhp": 420,
                     "torque_nm": 515,
@@ -560,6 +583,7 @@
                   "name": "Cayenne Turbo S",
                   "year": 2014,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Salon_de_l%27auto_de_Gen%C3%A8ve_2014_-_20140305_-_Porsche_Cayenne_turbo_S_1.jpg/960px-Salon_de_l%27auto_de_Gen%C3%A8ve_2014_-_20140305_-_Porsche_Cayenne_turbo_S_1.jpg",
+                  "price_brl": 350000,
                   "specs": {
                     "bhp": 550,
                     "torque_nm": 750,
@@ -581,6 +605,7 @@
                   "name": "Cayenne S",
                   "year": 2018,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Porsche_Cayenne_-_Type_PO536_-_Sanming_02_2022-08-27.jpg/960px-Porsche_Cayenne_-_Type_PO536_-_Sanming_02_2022-08-27.jpg",
+                  "price_brl": 520000,
                   "specs": {
                     "bhp": 440,
                     "torque_nm": 550,
@@ -596,6 +621,7 @@
                   "name": "Cayenne E-Hybrid",
                   "year": 2020,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Porsche_PO536_Cayenne_Turbo_E-Hybrid_IAA_2023_1X7A0536.jpg/960px-Porsche_PO536_Cayenne_Turbo_E-Hybrid_IAA_2023_1X7A0536.jpg",
+                  "price_brl": 650000,
                   "specs": {
                     "bhp": 462,
                     "torque_nm": 700,
@@ -611,6 +637,7 @@
                   "name": "Cayenne Turbo GT",
                   "year": 2022,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Porsche_Cayenne_Turbo_GT_1.jpg/960px-Porsche_Cayenne_Turbo_GT_1.jpg",
+                  "price_brl": 1250000,
                   "specs": {
                     "bhp": 640,
                     "torque_nm": 850,
@@ -626,6 +653,7 @@
                   "name": "Turbo GT (Facelift)",
                   "year": 2024,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/2024_Porsche_Cayenne_Turbo_GT_E-Hybrid_Auto.jpg",
+                  "price_brl": 1380000,
                   "specs": {
                     "bhp": 659,
                     "torque_nm": 850,
@@ -653,6 +681,7 @@
                 {
                   "name": "Boxster S (986)",
                   "year": 2000,
+                  "price_brl": 180000,
                   "specs": {
                     "bhp": 252,
                     "torque_nm": 305,
@@ -668,6 +697,7 @@
                   "name": "Cayman S (987)",
                   "year": 2006,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/2006_Porsche_Cayman_%28987%29_S_coupe_%282015-06-03%29_01.jpg/960px-2006_Porsche_Cayman_%28987%29_S_coupe_%282015-06-03%29_01.jpg",
+                  "price_brl": 240000,
                   "specs": {
                     "bhp": 295,
                     "torque_nm": 340,
@@ -688,7 +718,7 @@
                 {
                   "name": "Cayman GT4",
                   "year": 2015,
-                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Porsche_981_Cayman_GT4_SCD_24.jpg/960px-Porsche_981_Cayman_GT4_SCD_24.jpg",
+                  "price_brl": 620000,
                   "specs": {
                     "bhp": 385,
                     "torque_nm": 420,
@@ -704,6 +734,7 @@
                   "name": "Boxster Spyder",
                   "year": 2016,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/2015_Porsche_Boxster_Spyder_981.jpg/960px-2015_Porsche_Boxster_Spyder_981.jpg",
+                  "price_brl": 680000,
                   "specs": {
                     "bhp": 375,
                     "torque_nm": 420,
@@ -724,7 +755,7 @@
                 {
                   "name": "718 Cayman GT4",
                   "year": 2020,
-                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/2015_Porsche_Cayman_GT4_5.jpg/960px-2015_Porsche_Cayman_GT4_5.jpg",
+                  "price_brl": 780000,
                   "specs": {
                     "bhp": 420,
                     "torque_nm": 420,
@@ -740,6 +771,7 @@
                   "name": "718 Cayman GT4 RS",
                   "year": 2022,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/2022_Porsche_718_Cayman_GT4_RS_Weissach.jpg/960px-2022_Porsche_718_Cayman_GT4_RS_Weissach.jpg",
+                  "price_brl": 1350000,
                   "specs": {
                     "bhp": 500,
                     "torque_nm": 450,
@@ -755,6 +787,7 @@
                   "name": "718 Spyder RS",
                   "year": 2024,
                   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Porsche_718_Boxster_Spyder_RS_IMG_9095.jpg/960px-Porsche_718_Boxster_Spyder_RS_IMG_9095.jpg",
+                  "price_brl": 1250000,
                   "specs": {
                     "bhp": 500,
                     "torque_nm": 450,
@@ -764,6 +797,419 @@
                     "engine_layout": "Flat-6",
                     "aspiration": "Naturally Aspirated",
                     "drivetrain": "RWD"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mazda",
+      "name": "Mazda",
+      "country": "Japan",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Mazda_logo_with_emblem%2C_new.svg/330px-Mazda_logo_with_emblem%2C_new.svg.png",
+      "founded": 1920,
+      "models": [
+        {
+          "slug": "rx-7",
+          "name": "RX-7",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Mazda_RX-7_%28FD%29_Washington_DC_Metro_Area%2C_USA_%281%29.jpg/960px-Mazda_RX-7_%28FD%29_Washington_DC_Metro_Area%2C_USA_%281%29.jpg",
+          "generations": [
+            {
+              "code": "FB",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/1983_Mazda_RX-7_GSL%2C_front_left.jpg/960px-1983_Mazda_RX-7_GSL%2C_front_left.jpg",
+              "trims": [
+                {
+                  "name": "Series 3 GSL-SE",
+                  "year": 1985,
+                  "price_brl": 150000,
+                  "specs": {
+                    "bhp": 135,
+                    "torque_nm": 180,
+                    "weight_kg": 1100,
+                    "zero_to_100_s": 7.8,
+                    "engine": "1.3L 13B",
+                    "engine_layout": "Rotary",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "FC3S",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Tuned_Mazda_SAVANNA_RX-7_GT-R_%28E-FC3S%29_front.jpg/960px-Tuned_Mazda_SAVANNA_RX-7_GT-R_%28E-FC3S%29_front.jpg",
+              "trims": [
+                {
+                  "name": "Turbo II",
+                  "year": 1989,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/1991_Mazda_RX-7_Turbo_II_%288890766352%29.jpg/960px-1991_Mazda_RX-7_Turbo_II_%288890766352%29.jpg",
+                  "price_brl": 220000,
+                  "specs": {
+                    "bhp": 200,
+                    "torque_nm": 265,
+                    "weight_kg": 1360,
+                    "zero_to_100_s": 6.7,
+                    "engine": "1.3L 13B-T",
+                    "engine_layout": "Rotary",
+                    "aspiration": "Turbocharged",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "Infini IV",
+                  "year": 1990,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Mazda_E-FC3S_Savanna_RX-7_INFINI_%2823101511064%29.jpg",
+                  "price_brl": 280000,
+                  "specs": {
+                    "bhp": 215,
+                    "torque_nm": 280,
+                    "weight_kg": 1240,
+                    "zero_to_100_s": 6.3,
+                    "engine": "1.3L 13B-T",
+                    "engine_layout": "Rotary",
+                    "aspiration": "Turbocharged",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "FD3S",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Mazda_RX-7_SPIRIT_R_Type_A_%28GF-FD3S%29_%282%29.jpg/960px-Mazda_RX-7_SPIRIT_R_Type_A_%28GF-FD3S%29_%282%29.jpg",
+              "trims": [
+                {
+                  "name": "Type R",
+                  "year": 1993,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Mazda_E-FD3S_%CE%B5%D6%AEfini_RX-7_Type_R_%2809091312280%29.jpg/960px-Mazda_E-FD3S_%CE%B5%D6%AEfini_RX-7_Type_R_%2809091312280%29.jpg",
+                  "price_brl": 480000,
+                  "specs": {
+                    "bhp": 255,
+                    "torque_nm": 294,
+                    "weight_kg": 1260,
+                    "zero_to_100_s": 5.3,
+                    "engine": "1.3L 13B-REW",
+                    "engine_layout": "Rotary",
+                    "aspiration": "Sequential Twin-Turbo",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "Spirit R Type A",
+                  "year": 2002,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Mazda_RX-7_SPIRIT_R_Type_A_%28GF-FD3S%29_%282%29.jpg/960px-Mazda_RX-7_SPIRIT_R_Type_A_%28GF-FD3S%29_%282%29.jpg",
+                  "price_brl": 650000,
+                  "specs": {
+                    "bhp": 276,
+                    "torque_nm": 314,
+                    "weight_kg": 1270,
+                    "zero_to_100_s": 5.2,
+                    "engine": "1.3L 13B-REW",
+                    "engine_layout": "Twin-Rotor",
+                    "aspiration": "Sequential Twin-Turbo",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "rx-8",
+          "name": "RX-8",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mazda_RX-8_Spirit_R_2012.jpg/1200px-Mazda_RX-8_Spirit_R_2012.jpg",
+          "generations": [
+            {
+              "code": "SE3P",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mazda_RX-8_Spirit_R_2012.jpg/1200px-Mazda_RX-8_Spirit_R_2012.jpg",
+              "trims": [
+                {
+                  "name": "Type S",
+                  "year": 2003,
+                  "price_brl": 120000,
+                  "specs": {
+                    "bhp": 250,
+                    "torque_nm": 216,
+                    "weight_kg": 1310,
+                    "zero_to_100_s": 6.4,
+                    "engine": "1.3L 13B-MSP",
+                    "engine_layout": "Rotary (Renesis)",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "R3 Edition",
+                  "year": 2009,
+                  "price_brl": 185000,
+                  "specs": {
+                    "bhp": 232,
+                    "torque_nm": 211,
+                    "weight_kg": 1340,
+                    "zero_to_100_s": 6.7,
+                    "engine": "1.3L 13B-MSP",
+                    "engine_layout": "Rotary (Renesis)",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "Spirit R",
+                  "year": 2012,
+                  "price_brl": 320000,
+                  "specs": {
+                    "bhp": 232,
+                    "torque_nm": 216,
+                    "weight_kg": 1350,
+                    "zero_to_100_s": 6.5,
+                    "engine": "1.3L 13B-MSP",
+                    "engine_layout": "Rotary (Renesis)",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "mx-5",
+          "name": "MX-5 Miata",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Mazda_MX-5_Miata_SkyactivG_ND_Soul_Red_Crystal_Metallic_%2812%29.jpg/960px-Mazda_MX-5_Miata_SkyactivG_ND_Soul_Red_Crystal_Metallic_%2812%29.jpg",
+          "generations": [
+            {
+              "code": "NA",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/1994_Mazda_MX-5.jpg/960px-1994_Mazda_MX-5.jpg",
+              "trims": [
+                {
+                  "name": "M2-1028 Street Special",
+                  "year": 1994,
+                  "price_brl": 185000,
+                  "specs": {
+                    "bhp": 140,
+                    "torque_nm": 160,
+                    "weight_kg": 960,
+                    "zero_to_100_s": 7.9,
+                    "engine": "1.8L BP-ZE",
+                    "engine_layout": "Inline-4",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "NB",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Wiki_cars_183.jpg/960px-Wiki_cars_183.jpg",
+              "trims": [
+                {
+                  "name": "Mazdaspeed MX-5",
+                  "year": 2004,
+                  "price_brl": 145000,
+                  "specs": {
+                    "bhp": 178,
+                    "torque_nm": 226,
+                    "weight_kg": 1145,
+                    "zero_to_100_s": 6.7,
+                    "engine": "1.8L BP-4W",
+                    "engine_layout": "Inline-4",
+                    "aspiration": "Turbocharged",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "NC",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/MAZDA_MX-5_POWER_RETRACTABLE_HARD_TOP_%28NC%29_China_%282%29.jpg/960px-MAZDA_MX-5_POWER_RETRACTABLE_HARD_TOP_%28NC%29_China_%282%29.jpg",
+              "trims": [
+                {
+                  "name": "Club Spec",
+                  "year": 2013,
+                  "price_brl": 120000,
+                  "specs": {
+                    "bhp": 167,
+                    "torque_nm": 190,
+                    "weight_kg": 1130,
+                    "zero_to_100_s": 6.8,
+                    "engine": "2.0L MZR",
+                    "engine_layout": "Inline-4",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "ND",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Mazda_MX-5_Miata_SkyactivG_ND_Soul_Red_Crystal_Metallic_%2812%29.jpg/960px-Mazda_MX-5_Miata_SkyactivG_ND_Soul_Red_Crystal_Metallic_%2812%29.jpg",
+              "trims": [
+                {
+                  "name": "RF Club",
+                  "year": 2023,
+                  "price_brl": 280000,
+                  "specs": {
+                    "bhp": 181,
+                    "torque_nm": 205,
+                    "weight_kg": 1130,
+                    "zero_to_100_s": 5.7,
+                    "engine": "2.0L Skyactiv-G",
+                    "engine_layout": "Inline-4",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                },
+                {
+                  "name": "Mazda Spirit Racing RS",
+                  "year": 2024,
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/MAZDA_SPIRIT_RACING_RS_concept_%2813%29.jpg/960px-MAZDA_SPIRIT_RACING_RS_concept_%2813%29.jpg",
+                  "price_brl": 480000,
+                  "specs": {
+                    "bhp": 184,
+                    "torque_nm": 205,
+                    "weight_kg": 1020,
+                    "zero_to_100_s": 5.5,
+                    "engine": "2.0L Skyactiv-G",
+                    "engine_layout": "Spirit Tuned",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bmw",
+      "name": "BMW",
+      "country": "Germany",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/500px-BMW.svg.png",
+      "founded": 1916,
+      "models": [
+        {
+          "slug": "m3",
+          "name": "M3",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/BMW_M3_E92_Front.jpg/1200px-BMW_M3_E92_Front.jpg",
+          "generations": [
+            {
+              "code": "E30",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/BMW_M3_E30_Red.jpg/1200px-BMW_M3_E30_Red.jpg",
+              "trims": [
+                {
+                  "name": "Sport Evolution (EVO3)",
+                  "year": 1990,
+                  "price_brl": 1500000,
+                  "specs": {
+                    "bhp": 238,
+                    "torque_nm": 240,
+                    "weight_kg": 1200,
+                    "zero_to_100_s": 6.1,
+                    "engine": "2.5L S14",
+                    "engine_layout": "Inline-4",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "E46",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/BMW_M3_E46_Silver.jpg/1200px-BMW_M3_E46_Silver.jpg",
+              "trims": [
+                {
+                  "name": "M3 CSL",
+                  "year": 2003,
+                  "price_brl": 850000,
+                  "specs": {
+                    "bhp": 360,
+                    "torque_nm": 370,
+                    "weight_kg": 1385,
+                    "zero_to_100_s": 4.9,
+                    "engine": "3.2L S54",
+                    "engine_layout": "Inline-6",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            },
+            {
+              "code": "E92",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/BMW_M3_E92_Front.jpg/1200px-BMW_M3_E92_Front.jpg",
+              "trims": [
+                {
+                  "name": "M3 GTS",
+                  "year": 2010,
+                  "price_brl": 1200000,
+                  "specs": {
+                    "bhp": 450,
+                    "torque_nm": 440,
+                    "weight_kg": 1530,
+                    "zero_to_100_s": 4.4,
+                    "engine": "4.4L S65",
+                    "engine_layout": "V8",
+                    "aspiration": "Naturally Aspirated",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "m4",
+          "name": "M4",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/BMW_M4_G82_Front.jpg/1200px-BMW_M4_G82_Front.jpg",
+          "generations": [
+            {
+              "code": "G82",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/BMW_M4_G82_Front.jpg/1200px-BMW_M4_G82_Front.jpg",
+              "trims": [
+                {
+                  "name": "M4 CSL",
+                  "year": 2023,
+                  "price_brl": 1900000,
+                  "specs": {
+                    "bhp": 550,
+                    "torque_nm": 650,
+                    "weight_kg": 1625,
+                    "zero_to_100_s": 3.7,
+                    "engine": "3.0L S58",
+                    "engine_layout": "Inline-6",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "RWD"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "m5",
+          "name": "M5",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/BMW_M5_CS_Green.jpg/1200px-BMW_M5_CS_Green.jpg",
+          "generations": [
+            {
+              "code": "F90",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/BMW_M5_CS_Green.jpg/1200px-BMW_M5_CS_Green.jpg",
+              "trims": [
+                {
+                  "name": "M5 CS",
+                  "year": 2022,
+                  "price_brl": 1600000,
+                  "specs": {
+                    "bhp": 635,
+                    "torque_nm": 750,
+                    "weight_kg": 1825,
+                    "zero_to_100_s": 3.0,
+                    "engine": "4.4L S63",
+                    "engine_layout": "V8",
+                    "aspiration": "Twin-Turbo",
+                    "drivetrain": "M xDrive (AWD)"
                   }
                 }
               ]

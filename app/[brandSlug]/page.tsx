@@ -13,7 +13,7 @@ export default async function BrandPage({ params }: { params: Promise<{ brandSlu
 
     try {
         const res = await fetch(`${baseUrl}/api/cars?brand=${brandSlug}`, {
-            next: { revalidate: 3600 }
+            next: { revalidate: 30 }
         });
         const brandData = await res.json();
         models = brandData.models;

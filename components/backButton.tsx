@@ -11,7 +11,7 @@ export default function BackButton() {
             className="back-button"
         >
             <FaChevronLeft size={14} />
-            <span>VOLTAR</span>
+            <span>Back</span>
         </button>
     )
 }

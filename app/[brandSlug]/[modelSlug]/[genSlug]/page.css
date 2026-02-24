@@ -1,4 +1,4 @@
-/* Layout Principal */
+
 .catalog-container {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,7 +6,7 @@
     background-color: #fff;
 }
 
-/* Cabeçalho Técnico */
+
 .catalog-header {
     display: flex;
     justify-content: space-between;
@@ -26,14 +26,14 @@
     color: #111;
 }
 
-/* Grid de Navegação */
+
 .catalog-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
     gap: 30px;
 }
 
-/* O Card Estilo Gran Turismo */
+
 .car-card {
     background: #fff;
     border: 1px solid #e0e0e0;
@@ -51,7 +51,7 @@
     box-shadow: 0 20px 40px rgba(0,0,0,0.08);
 }
 
-/* Box da Imagem */
+
 .car-image-box {
     position: relative;
     width: 100%;
@@ -73,7 +73,7 @@
     filter: saturate(1.1);
 }
 
-/* Badge Superior (Ano ou Legend) */
+
 .badge-new {
     position: absolute;
     top: 0;
@@ -89,7 +89,7 @@
     text-transform: uppercase;
 }
 
-/* Info do Carro */
+
 .car-info {
     padding: 25px;
     display: flex;
@@ -97,8 +97,8 @@
     gap: 5px;
 }
 
-.generations {
-    font-size: 0.7rem;
+.price {
+    font-size: 1.2rem;
     font-weight: 800;
     color: #e30613;
     text-transform: uppercase;
@@ -116,7 +116,7 @@
     line-height: 1;
 }
 
-/* Rodapé do Card */
+
 .car-footer {
     margin-top: 20px;
     padding-top: 15px;
@@ -130,7 +130,7 @@
     letter-spacing: 1px;
 }
 
-/* Barra Vermelha de Hover */
+
 .car-card::after {
     content: "";
     position: absolute;
@@ -146,7 +146,7 @@
     width: 100%;
 }
 
-/* Botão de Voltar Personalizado */
+
 .back-button {
     display: flex;
     align-items: center;
