@@ -9,7 +9,7 @@ export default async function Home() {
 
   try {
     const res = await fetch(`${baseUrl}/api/cars`, {
-      next: { revalidate: 3600 }
+      next: { revalidate: 30 }
     });
 
     if (!res.ok) throw new Error('Falha ao carregar marcas');

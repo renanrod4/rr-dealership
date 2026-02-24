@@ -919,15 +919,16 @@
         {
           "slug": "rx-8",
           "name": "RX-8",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mazda_RX-8_Spirit_R_2012.jpg/1200px-Mazda_RX-8_Spirit_R_2012.jpg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Mazda_RX8_Spirit_R%2C_Bangladesh._%2842612097870%29.jpg/960px-Mazda_RX8_Spirit_R%2C_Bangladesh._%2842612097870%29.jpg",
           "generations": [
             {
               "code": "SE3P",
-              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mazda_RX-8_Spirit_R_2012.jpg/1200px-Mazda_RX-8_Spirit_R_2012.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Mazda_ABA-SE3P_RX-8_Type_S_%2823112610460%29.jpg/960px-Mazda_ABA-SE3P_RX-8_Type_S_%2823112610460%29.jpg",
               "trims": [
                 {
                   "name": "Type S",
                   "year": 2003,
+                  "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Mazda_ABA-SE3P_RX-8_Type_S_%2823112610460%29.jpg/960px-Mazda_ABA-SE3P_RX-8_Type_S_%2823112610460%29.jpg",
                   "price_brl": 120000,
                   "specs": {
                     "bhp": 250,
@@ -943,6 +944,7 @@
                 {
                   "name": "R3 Edition",
                   "year": 2009,
+                  "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/2010_Mazda_RX-8_R3_--_09-03-2009.jpg/960px-2010_Mazda_RX-8_R3_--_09-03-2009.jpg",
                   "price_brl": 185000,
                   "specs": {
                     "bhp": 232,
@@ -958,6 +960,7 @@
                 {
                   "name": "Spirit R",
                   "year": 2012,
+                  "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Mazda_RX8_Spirit_R%2C_Bangladesh._%2842612097870%29.jpg/960px-Mazda_RX8_Spirit_R%2C_Bangladesh._%2842612097870%29.jpg",
                   "price_brl": 320000,
                   "specs": {
                     "bhp": 232,
